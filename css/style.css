@@ -207,7 +207,20 @@ body {
   font-size: 1.2rem;
   color: var(--color-grey-light-4);
   text-align: center;
-  padding: 2.5rem; }
+  padding: 2.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+  .legal__dev-link:link, .legal__dev-link:visited {
+    color: var(--color-grey-light-1);
+    text-decoration: none;
+    display: flex;
+    align-items: center; }
+  .legal__icon {
+    height: 1.4rem;
+    width: 1.4rem;
+    fill: currentColor;
+    margin-right: 8px; }
 
 .gallery {
   display: flex; }
